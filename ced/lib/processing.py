@@ -1,5 +1,6 @@
-"""Summary
-"""
+
+
+
 # !/usr/bin/python3
 # -*- coding: utf8 -*-
 #
@@ -80,7 +81,7 @@ def replace_content(text, decode=False):
 
 def ced_main(args):
     """
-    Main called by launcher
+    Main function called by launcher
     """
     logger = logging.getLogger('CED')	
     if args.verbose:
